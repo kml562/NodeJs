@@ -18,7 +18,7 @@ Node is often used to build back end services that communicate with client-side 
 # Architecture
 `Every browser has their own Javascript engine that converts javascript into code that a computer can understand. For example, Microsoft Edge uses Chakra, Firefox uses spidermonkey, and chrome uses V8. This explains why JavaScript code can behave differently in other browsers.`
 
-# What is I/O ?
+# What is I/O ? [more](./2-IO.md)
 shorthand for Input and Output and it means accessing anything outside of your application. Once an application has started, it is loaded into the machine’s memory. That’s what the CPU will mostly use for running your program. I/O is
 
 Accessing memory is pretty fast, hence a lot of caching mechanisms simply use RAM to store data. However, applications will often need to access the network or read from a text file, and these types of I/O are by far the slowest types. That’s where non-blocking I/O proves it’s dominance.
